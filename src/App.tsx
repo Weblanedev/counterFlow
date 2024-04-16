@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<Homepage setSelectedBook={setSelectedBook} />}
+          element={<Homepage />}
         />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />

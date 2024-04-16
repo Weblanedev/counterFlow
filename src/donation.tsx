@@ -4,12 +4,8 @@ import { MouseEventHandler, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useModals } from "./useModal";
 import ShowDonationModal from "./show-donation";
-// import { Book } from "./utils";
 
 const Donation = () => {
-  //@ts-ignore
-  const selectedBook = JSON.parse(localStorage.getItem('item'))
-  console.log(selectedBook)
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -18,19 +14,6 @@ const Donation = () => {
     });
   }, []);
 
-  function add100Dollars(input: string): string {
-    // Extracting the numerical part of the input string
-    const numericalPart = parseFloat(input?.replace(/[^\d.]/g, ""));
-
-    // Adding 100 to the numerical part
-    const result = numericalPart + 105;
-
-    // Formatting the result back to the original format
-    const formattedResult = result.toFixed(2);
-    const output = `$${formattedResult}`;
-
-    return output;
-  }
 
   // State to manage the disabled state of the button
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);

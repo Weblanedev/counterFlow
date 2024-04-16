@@ -1,12 +1,8 @@
 import { Link } from "react-router-dom";
-import { Book, Faqs, books } from "./utils";
+import { Faqs } from "./utils";
 import { useEffect, useState } from "react";
 
-const Homepage = ({
-  setSelectedBook,
-}: {
-  setSelectedBook: (selectedBook: Book) => void;
-}) => {
+const Homepage = () => {
   const [showFaq, setShowFaq] = useState<any>(false)
   const active = (index: any) => {
     if (showFaq === index) {
@@ -44,37 +40,6 @@ const Homepage = ({
           </Link>
         </div>
       </section>
-{/* 
-      <section className="flex w-full flex-col md:flex-row items-center justify-center md:justify-between gap-5 bg-red-400/30 py-14 md:py-20 border-y border-orange-900/10">
-        <div className="flex flex-col md:flex-row gap-8 items-center justify-center w-full">
-          {books.slice(0, 3).map((book) => (
-            <div className="flex flex-col items-center justify-center pt-12 pb-8 px-16 md:px-20 gap-7 bg-white rounded-2xl text-orange-900 round ed-xl">
-              <img
-                src={book.img}
-                alt=""
-                className="w-[120px] h-[160px] object-cover rou nded-xl drop-shadow-lg"
-              />
-              <h4 className="font-medium text-[18px] md:text-[20px] md:w-[240px] leading-tight text-center w-[200px] line-clamp-2">
-                {book.title}
-              </h4>
-
-              <p className="text-[12px] md:text-[14px] text-center w-[200px] line-clamp-3 md:w-[240px]">
-                {book.summary}
-              </p>
-              <h4 className="font-bold text-[18px] leading-tight text-center w-[200px] line-clamp-2">
-                {book.price}
-              </h4>
-              <Link
-                to="/billing"
-                onClick={() => setSelectedBook(book)}
-                className="text-base font-medium text-white bg-red-400 rounded-md px-7 md:px-8 py-2 md:py-3 hover:bg-red-600 flex items-center justify-center gap-3"
-              >
-                Purchase
-              </Link>
-            </div>
-          ))}
-        </div>
-      </section> */}
 
       <section className="py-[50px]  bg-red-400/30 "> 
         <div className='text-center'>
