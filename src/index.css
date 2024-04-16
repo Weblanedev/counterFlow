@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Noto+Sans:wght@100&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Noto+Sans:wght@100&family=Inter:ital,wght@0,200..800;1,200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Inter", sans-serif; */
+  
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+* {
+  color: rgb(67 20 7);
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.homepage {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://ideally.io/wp-content/uploads/2021/11/verkkokaupat-idea-768x685.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
