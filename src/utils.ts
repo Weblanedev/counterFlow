@@ -132,26 +132,4 @@ export const Faqs = [
     answer: "We offer a range of cloud services, including cloud migration, infrastructure optimization, and cloud-native application development, tailored to meet the unique needs of our clients."
 
   },
-  {
-    id: 4,
-    question: "Can I Study Abroad?",
-    answer: "Yes, you can. However, there are certain requirements and eligibility criteria stipulated by a number of universities and scholarship bodies before you can study abroad."
-
-  },
-  {
-    id: 5,
-    question: "Do I need travel Insurance?",
-    answer: "Yes. We highly recommend travel protection, it’s important to protect your trip investment and loved ones. We will offer you the best option."
-
-  },
-  {
-    id: 6,
-    question: "Will you be available while I am on vacation?",
-    answer: "Yes, we will be available to answer any questions or address any concerns that you may have. You can get in touch with us anytime. We are committed to providing the best possible service and helping our clients create memorable vacations that they will always remember."
-  },
-  {
-    id: 7,
-    question: "Do you have an office I can visit for consultation?",
-    answer: "Yes, Our office is at: 21, Bekwere Wosu Street, D-Line, Port Harcourt, Rivers State, Nigeria."
-  }
 ]

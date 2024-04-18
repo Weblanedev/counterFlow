@@ -18,7 +18,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
     const numericalPart = parseFloat(input.replace(/[^\d.]/g, ""));
 
     // Adding 100 to the numerical part
-    const result = numericalPart + 105;
+    const result = numericalPart + 20;
 
     // Formatting the result back to the original format
     const formattedResult = result.toFixed(2);
@@ -86,7 +86,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with Splashtop</p>
+          <p>Find the best way to get help and connect with CounterFlow</p>
         </div>
       </section>
 
@@ -165,18 +165,10 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
               <h4 className="text-[#707070] uppercase font-medium text-[13px]">
-                Professional consultation service charge
-              </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
-                $100.00
-              </h4>
-            </div>
-            <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#707070] uppercase font-medium text-[13px]">
                 Processing Fee
               </h4>
               <h4 className="text-[#161616] font-medium text-[16px]">
-                $5.00
+                $20.00
               </h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
@@ -346,7 +338,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
               your experience throughout this website, and for other purposes
               described in our{" "}
               <Link
-                to="/privacy-policy"
+                to="/"
                 className="text-[#a20401] cursor-pointer"
               >
                 privacy policy.
