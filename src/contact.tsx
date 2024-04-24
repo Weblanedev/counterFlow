@@ -187,7 +187,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-orange-500 leading-normal">
-                Lagos, Nigeira
+                1 Platinum Street, Platinum Rows Estate, Lekki Penninsula II, Lekki
               </p>
             </div>
           </div>
